@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12ef7834-aa15-4ac9-8b46-d8f67aba5f2f">
-  <name>БиблиотекаСтандартныхПодсистем</name>
+  <name>Логистика</name>
   <synonym>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Логистика</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1223e46c-30ad-4076-99a1-5046abca7b70"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="86532d1c-a5c9-4984-83c5-4df1035a587b"/>
@@ -18,9 +18,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>3.1.11.353</version>
-  <updateCatalogAddress>https://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
+  <version>1.0.0.0</version>
   <includeHelpInContents>true</includeHelpInContents>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -35,21 +33,13 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Логистика</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Дипломная работа, логистика</value>
   </detailedInformation>
   <splash/>
-  <copyright>
-    <key>ru</key>
-    <value>Copyright © ООО &quot;1С-Софт&quot;, 2009-2024. Все права защищены</value>
-  </copyright>
-  <vendorInformationAddress>
-    <key>ru</key>
-    <value>https://www.1c.ru</value>
-  </vendorInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
@@ -64,7 +54,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem.Склад</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
@@ -812,10 +804,13 @@
   <roles>Role.ДобавлениеИзменениеЛичныхШаблоновСообщений</roles>
   <roles>Role.ДобавлениеИзменениеМашиночитаемыхДоверенностей</roles>
   <roles>Role.ДобавлениеИзменениеНапоминаний</roles>
+  <roles>Role.ДобавлениеИзменениеНоменклатура</roles>
   <roles>Role.ДобавлениеИзменениеОпросов</roles>
+  <roles>Role.ДобавлениеИзменениеОрдер</roles>
   <roles>Role.ДобавлениеИзменениеОтветовНаВопросыАнкет</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайлов</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</roles>
+  <roles>Role.ДобавлениеИзменениеПеремещение</roles>
   <roles>Role.ДобавлениеИзменениеПодписантовМобильногоСервиса</roles>
   <roles>Role.ДобавлениеИзменениеПользователей</roles>
   <roles>Role.ДобавлениеИзменениеПрограммЭлектроннойПодписиИШифрования</roles>
@@ -823,6 +818,7 @@
   <roles>Role.ДобавлениеИзменениеРолейИсполнителей</roles>
   <roles>Role.ДобавлениеИзменениеСерверовDSS</roles>
   <roles>Role.ДобавлениеИзменениеСертификатовКлючейЭлектроннойПодписиИШифрования</roles>
+  <roles>Role.ДобавлениеИзменениеСклад</roles>
   <roles>Role.ДобавлениеИзменениеСнимковОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных</roles>
   <roles>Role.ДобавлениеИзменениеСостоянийОригиналовПервичныхДокументов</roles>
@@ -881,9 +877,13 @@
   <roles>Role.ЧтениеИнформацииОВерсияхОбъектов</roles>
   <roles>Role.ЧтениеКурсовВалют</roles>
   <roles>Role.ЧтениеМашиночитаемыхДоверенностей</roles>
+  <roles>Role.ЧтениеНоменклатура</roles>
+  <roles>Role.ЧтениеОрдер</roles>
   <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
+  <roles>Role.ЧтениеПеремещение</roles>
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеРезультатовПроверкиУчета</roles>
+  <roles>Role.ЧтениеСклады</roles>
   <roles>Role.ЧтениеСогласийНаОбработкуПерсональныхДанных</roles>
   <roles>Role.ЧтениеСостоянийОригиналовПервичныхДокументов</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
@@ -1116,6 +1116,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыГлобальный</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыЛогистика</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебный</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВМоделиСервиса</commonModules>
@@ -2192,6 +2193,7 @@
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
   <catalogs>Catalog.НастройкиАвторизацииИнтернетСервисов</catalogs>
   <catalogs>Catalog.НастройкиТранспортаСообщенийОбмена</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ОбщиеВнешниеКомпоненты</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.ПапкиЭлектронныхПисем</catalogs>
@@ -2211,6 +2213,7 @@
   <catalogs>Catalog.РолиИсполнителей</catalogs>
   <catalogs>Catalog.СеансыОбменовДанными</catalogs>
   <catalogs>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СообщениеSMSПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.СостоянияОригиналовПервичныхДокументов</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
@@ -2236,6 +2239,9 @@
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.НазначениеОпросов</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
+  <documents>Document.Перемещение</documents>
+  <documents>Document.ПриходныйОрдер</documents>
+  <documents>Document.РасходныйОрдер</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СообщениеSMS</documents>
   <documents>Document.ТелефонныйЗвонок</documents>
