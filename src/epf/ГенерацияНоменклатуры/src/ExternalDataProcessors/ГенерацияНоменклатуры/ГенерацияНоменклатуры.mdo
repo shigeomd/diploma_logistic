@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0abee82-de2c-48cc-80b6-89c7861c9953">
+  <producedTypes>
+    <objectType typeId="20e3664c-3c97-40b2-a6a7-39a29042d74f" valueTypeId="8e7e736e-de2f-4d49-bfb3-dd38a077c5d8"/>
+  </producedTypes>
+  <name>ГенерацияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация номенклатуры</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b373aa91-98e1-4557-a6be-6adae9500603"/>
+  <defaultForm>ExternalDataProcessor.ГенерацияНоменклатуры.Form.Форма</defaultForm>
+  <attributes uuid="c98f6eef-3246-43f5-9f63-5d82755e6c3c">
+    <name>КоличествоГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество групп</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2f0428c-89cd-4c8c-9cfc-d13ff7dc72f4">
+    <name>КоличествоЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="553c8fc0-951f-446f-b8cb-2c466ee1408c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
