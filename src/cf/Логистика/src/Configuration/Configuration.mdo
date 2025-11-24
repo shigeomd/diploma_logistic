@@ -2426,8 +2426,7 @@
   <dataProcessors>DataProcessor.НастройкаСтандартногоИнтерфейсаOData</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиЦентраМониторинга</dataProcessors>
-  <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
-  <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>  
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
   <dataProcessors>DataProcessor.ОтложеннаяЗаписьУзла</dataProcessors>
   <dataProcessors>DataProcessor.ОценкаПроизводительности</dataProcessors>
