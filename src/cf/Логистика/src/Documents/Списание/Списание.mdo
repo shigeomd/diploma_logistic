@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29845593-1346-492c-b0fd-92ec45797ba9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27e86bf0-8d6b-4e22-b6c3-502c4a052cc4">
   <producedTypes>
-    <objectType typeId="2308d27b-0089-4d2d-9e0e-bbfdab6da3aa" valueTypeId="8bc6c567-781e-476b-b506-5e7c7a3f70f0"/>
-    <refType typeId="72f8e0d3-5e59-43db-93ee-55a9d2881724" valueTypeId="f2a0f874-6f07-41c2-a2d1-dbd633eb3885"/>
-    <selectionType typeId="e01d9e16-1277-4bf8-aecc-aee64fb6e9e3" valueTypeId="0fd722a0-4e6e-403a-ae62-6ed40ecac3b2"/>
-    <listType typeId="1823bbb9-162a-4307-985c-ed8b3e5139e3" valueTypeId="02640f95-90fc-484c-989f-dd8a7e618444"/>
-    <managerType typeId="a01e1137-4be8-4edc-9a36-30fddc949092" valueTypeId="75cceb30-fd5f-4d8f-9d9d-5e4aff03a88e"/>
+    <objectType typeId="3c51a259-5561-479d-a672-c5b154802f91" valueTypeId="5268f79d-9218-47a9-8020-f5a2e73d19c6"/>
+    <refType typeId="057ca3bf-d32a-4273-96d4-12a968c43f33" valueTypeId="c48ebfa2-3ead-4b12-8d5e-2146c0e02c3c"/>
+    <selectionType typeId="958eb8e8-a044-4ee5-a980-154ecd20509b" valueTypeId="b8ec7501-7a95-4890-96e5-14911d66fbf6"/>
+    <listType typeId="b3842cf4-b594-46c4-b4ea-0c944a78b15e" valueTypeId="c7d75830-5553-4f67-b99c-44185cd6d60d"/>
+    <managerType typeId="9308e655-4416-45c1-97e7-d636801f8437" valueTypeId="02bc09a1-8fe3-409d-8b0f-92708dc2e9a1"/>
   </producedTypes>
-  <name>ПриходныйОрдер</name>
+  <name>Списание</name>
   <synonym>
     <key>ru</key>
-    <value>Приходный ордер</value>
+    <value>Списание</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПриходныйОрдер.StandardAttribute.Number</inputByString>
+  <inputByString>Document.Списание.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -25,7 +25,7 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="007dfa83-cea4-492f-af3e-5212a50f0c05">
+  <attributes uuid="69fcfa8f-8023-434e-b65a-7d5051138cc5">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -41,7 +41,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="2b6f50b4-bedf-458e-ab8a-e0638ad3efe1">
+  <attributes uuid="d5b590df-f61d-4dd2-98f9-bff2e6e7cd3e">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -56,7 +56,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d60dc6e7-10f8-4911-b4f0-d98a381bee90">
+  <attributes uuid="50bdec3a-8fab-4871-ba56-a117551ef239">
     <name>Склад</name>
     <synonym>
       <key>ru</key>
@@ -71,47 +71,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="eb1f9d8e-cbcd-4d29-b84e-83e788a78117">
-    <name>ДокументОснование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ основание</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.Перемещение</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="963f106c-7448-4fb5-8389-c829ab3e4527">
-    <name>Выполнен</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выполнен</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <tabularSections uuid="5dac39cd-db00-43b0-9ce2-6d87a7eb319c">
+  <tabularSections uuid="77bdc6a8-1b7d-4fab-a73e-a5ecb700b0d0">
     <producedTypes>
-      <objectType typeId="09c6c121-8524-4985-ab6e-8a9423329980" valueTypeId="2be00f8a-b6b6-4b9b-85a4-9d0a8d2d1f53"/>
-      <rowType typeId="29ed17c1-a8b8-47c2-8d1e-1480dd120934" valueTypeId="9ec78528-b80e-4ef6-9c51-8ac2d6ee1551"/>
+      <objectType typeId="14922e59-867e-42a6-94bc-fa9982132bd0" valueTypeId="88f11016-2032-41d3-8445-38ca165275b2"/>
+      <rowType typeId="e92e76b8-994d-41f7-8ad3-229b9ae992e4" valueTypeId="706f5810-9deb-42bc-b766-87cedbd69448"/>
     </producedTypes>
     <name>Товары</name>
     <synonym>
       <key>ru</key>
       <value>Товары</value>
     </synonym>
-    <attributes uuid="f7c1fa80-8994-4c1e-b382-4c1bed2261a0">
+    <attributes uuid="d26861d7-8c08-40d8-87e6-556997fd1806">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -125,7 +95,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="9232d1f3-8d7e-46db-98c0-f4eb7cae7afd">
+    <attributes uuid="0f52b3d5-4da4-4f11-ba57-d89e104e5178">
       <name>Количество</name>
       <synonym>
         <key>ru</key>

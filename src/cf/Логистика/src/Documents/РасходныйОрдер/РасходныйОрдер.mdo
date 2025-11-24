@@ -86,6 +86,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b54d7b41-5e1c-4ed9-b73a-3489f66197e9">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="2cd9f5b5-5678-4f32-8059-c2b176f7fc1b">
     <producedTypes>
       <objectType typeId="00f4c8c6-4a0d-4983-9a49-daf701fbe067" valueTypeId="fc544a39-e2f9-4646-a34b-e92abf192b4a"/>

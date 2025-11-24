@@ -805,6 +805,7 @@
   <roles>Role.ДобавлениеИзменениеМашиночитаемыхДоверенностей</roles>
   <roles>Role.ДобавлениеИзменениеНапоминаний</roles>
   <roles>Role.ДобавлениеИзменениеНоменклатура</roles>
+  <roles>Role.ДобавлениеИзменениеОприходование</roles>
   <roles>Role.ДобавлениеИзменениеОпросов</roles>
   <roles>Role.ДобавлениеИзменениеОрдер</roles>
   <roles>Role.ДобавлениеИзменениеОтветовНаВопросыАнкет</roles>
@@ -822,6 +823,7 @@
   <roles>Role.ДобавлениеИзменениеСнимковОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных</roles>
   <roles>Role.ДобавлениеИзменениеСостоянийОригиналовПервичныхДокументов</roles>
+  <roles>Role.ДобавлениеИзменениеСписание</roles>
   <roles>Role.ДобавлениеИзменениеУчетныхЗаписейСерверовDSS</roles>
   <roles>Role.ДобавлениеИзменениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ДобавлениеИзменениеШаблоновАнкет</roles>
@@ -881,6 +883,8 @@
   <roles>Role.ЧтениеОрдер</roles>
   <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
   <roles>Role.ЧтениеПеремещение</roles>
+  <roles>Role.ЧтениеОприходование</roles>
+  <roles>Role.ЧтениеСписание</roles>
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеРезультатовПроверкиУчета</roles>
   <roles>Role.ЧтениеСклады</roles>
@@ -2238,12 +2242,14 @@
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.НазначениеОпросов</documents>
+  <documents>Document.Оприходование</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
   <documents>Document.Перемещение</documents>
   <documents>Document.ПриходныйОрдер</documents>
   <documents>Document.РасходныйОрдер</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СообщениеSMS</documents>
+  <documents>Document.Списание</documents>
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>

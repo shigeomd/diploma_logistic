@@ -11,4 +11,8 @@
   <content>Role.ЧтениеПеремещение</content>
   <content>Role.ДобавлениеИзменениеОрдер</content>
   <content>Role.ЧтениеОрдер</content>
+  <content>Role.ДобавлениеИзменениеОприходование</content>
+  <content>Role.ДобавлениеИзменениеСписание</content>
+  <content>Role.ЧтениеОприходование</content>
+  <content>Role.ЧтениеСписание</content>
 </mdclass:Subsystem>
