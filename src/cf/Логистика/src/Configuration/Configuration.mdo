@@ -880,16 +880,16 @@
   <roles>Role.ЧтениеКурсовВалют</roles>
   <roles>Role.ЧтениеМашиночитаемыхДоверенностей</roles>
   <roles>Role.ЧтениеНоменклатура</roles>
+  <roles>Role.ЧтениеОприходование</roles>
   <roles>Role.ЧтениеОрдер</roles>
   <roles>Role.ЧтениеОтветовНаВопросыАнкет</roles>
   <roles>Role.ЧтениеПеремещение</roles>
-  <roles>Role.ЧтениеОприходование</roles>
-  <roles>Role.ЧтениеСписание</roles>
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеРезультатовПроверкиУчета</roles>
   <roles>Role.ЧтениеСклады</roles>
   <roles>Role.ЧтениеСогласийНаОбработкуПерсональныхДанных</roles>
   <roles>Role.ЧтениеСостоянийОригиналовПервичныхДокументов</roles>
+  <roles>Role.ЧтениеСписание</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
   <roles>Role.ШифрованиеИРасшифровкаДанных</roles>
@@ -2426,7 +2426,7 @@
   <dataProcessors>DataProcessor.НастройкаСтандартногоИнтерфейсаOData</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиЦентраМониторинга</dataProcessors>
-  <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>  
+  <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
   <dataProcessors>DataProcessor.ОтложеннаяЗаписьУзла</dataProcessors>
   <dataProcessors>DataProcessor.ОценкаПроизводительности</dataProcessors>
