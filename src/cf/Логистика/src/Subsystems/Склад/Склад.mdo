@@ -20,4 +20,7 @@
   <content>Document.ПриходныйОрдер</content>
   <content>Document.РасходныйОрдер</content>
   <content>Document.Списание</content>
+  <content>Report.ТоварыКПоступлениюНаСклады</content>
+  <content>Report.ТоварыКРасходуСоСкладов</content>
+  <content>Report.ТоварыНаСкладах</content>
 </mdclass:Subsystem>
