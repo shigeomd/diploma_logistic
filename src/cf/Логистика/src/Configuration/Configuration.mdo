@@ -853,6 +853,7 @@
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
   <roles>Role.ПросмотрОтчетаДвиженияДокумента</roles>
+  <roles>Role.ПросмотрОтчетовПоСкладам</roles>
   <roles>Role.ПросмотрСвязанныеДокументы</roles>
   <roles>Role.РасшифровкаДанных</roles>
   <roles>Role.РедактированиеПечатныхФорм</roles>
@@ -2391,6 +2392,9 @@
   <reports>Report.СогласияНаОбработкуПерсональныхДанныхДействующие</reports>
   <reports>Report.СогласияНаОбработкуПерсональныхДанныхИстекающие</reports>
   <reports>Report.СостояниеУчетнойЗаписиDSS</reports>
+  <reports>Report.ТоварыКПоступлениюНаСклады</reports>
+  <reports>Report.ТоварыКРасходуСоСкладов</reports>
+  <reports>Report.ТоварыНаСкладах</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.УчастникиГруппДоступа</reports>
   <reports>Report.УчастникиГруппПользователей</reports>

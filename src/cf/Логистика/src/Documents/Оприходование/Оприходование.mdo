@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Оприходование.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ТоварыКПоступлениюНаСклад</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -72,6 +73,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e97684c6-6d7a-4941-a005-6b89984dd779">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="0fcacc95-4067-4e83-869a-976951586170">
     <producedTypes>
       <objectType typeId="0468f1e2-7e82-4d0e-b096-9618c3ae4ac2" valueTypeId="f239c14b-f119-4f36-9c6f-b0d2222f701f"/>
