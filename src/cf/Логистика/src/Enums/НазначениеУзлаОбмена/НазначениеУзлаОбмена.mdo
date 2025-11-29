@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="685aea11-1901-4326-982d-b9a0b8c2cd63">
+  <producedTypes>
+    <refType typeId="4d4f2ddd-d2db-4c16-a4cc-9bfd27ca68f9" valueTypeId="b6ad8203-f2bc-4c73-8117-27059aa6c1d4"/>
+    <listType typeId="c3df958e-6654-4601-aa7b-e0e4bbbe6350" valueTypeId="d2829350-cdbc-4d82-8e58-76f700f31c90"/>
+    <managerType typeId="7d11fe4d-1766-4ef3-a2c8-9c66d99bd205" valueTypeId="71296b64-585a-4898-9d82-4eba27be8399"/>
+  </producedTypes>
+  <name>НазначениеУзлаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение узла обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c4167a1-d547-4b0b-8397-2d35373f59c2">
+    <name>Справочники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочники</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c45889a-6b38-44ca-a76c-4e01eea00e63">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

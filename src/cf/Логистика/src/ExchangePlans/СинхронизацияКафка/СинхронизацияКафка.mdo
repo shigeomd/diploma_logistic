@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79aae81d-5fa2-44ac-9e90-73f2dc38d09c" thisNode="c9826621-5963-49d8-b6ad-ec3274d26c41">
+  <producedTypes>
+    <objectType typeId="a57d1fba-4c74-4900-a382-0b0701783d48" valueTypeId="581908e6-df38-46d7-91be-421681c2d9e5"/>
+    <refType typeId="5a14d8eb-750d-4d72-81ce-fc2022c0241f" valueTypeId="08c07587-dbca-4723-ad71-f87539cea769"/>
+    <selectionType typeId="1ccf4764-15bb-4077-8347-15dbb6c87512" valueTypeId="a3c14a32-1a9b-458a-8c29-24de5d0c75d0"/>
+    <listType typeId="e5c390fd-7bec-48f6-837a-99279309c118" valueTypeId="44accbd9-f7fc-47e3-aa74-9089c915d630"/>
+    <managerType typeId="f38b2bef-2605-4042-bb84-9e6feebe085f" valueTypeId="7bc781fc-127a-4023-b431-cd26c65252fc"/>
+  </producedTypes>
+  <name>СинхронизацияКафка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация кафка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.СинхронизацияКафка.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.СинхронизацияКафка.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Склады</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.РасходныйОрдер</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПриходныйОрдер</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.СинхронизацияКафка.Form.ФормаУзла</defaultObjectForm>
+  <attributes uuid="4cdaab45-915d-459c-9e9a-d5284fc6396a">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НазначениеУзлаОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5116f7ea-7277-453a-8d17-552ea0e8f394">
+    <name>АдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d7d48d4-5151-4ac8-88ef-278121afb4a2">
+    <name>Топик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Топик</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="19c9d3ab-cb62-4290-9071-b7c5283ce0ee">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

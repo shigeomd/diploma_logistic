@@ -56,6 +56,7 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem.Синхронизация</subsystems>
   <subsystems>Subsystem.Склад</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
@@ -894,6 +895,8 @@
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
   <roles>Role.ШифрованиеИРасшифровкаДанных</roles>
+  <commonTemplates>CommonTemplate.librdkafka_win32</commonTemplates>
+  <commonTemplates>CommonTemplate.librdkafka_win64</commonTemplates>
   <commonTemplates>CommonTemplate.ВидыДокументовУдостоверяющихЛичность</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
@@ -1060,6 +1063,9 @@
   <commonModules>CommonModule.КонтрольРаботыПользователей</commonModules>
   <commonModules>CommonModule.КонтрольРаботыПользователейСлужебный</commonModules>
   <commonModules>CommonModule.КонтрольРаботыПользователейСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЛогистикаСинхронизацияВызовСервера</commonModules>
+  <commonModules>CommonModule.ЛогистикаСинхронизацияПовтИсп</commonModules>
+  <commonModules>CommonModule.ЛогистикаСинхронизацияСервер</commonModules>
   <commonModules>CommonModule.МашиночитаемыеДоверенностиФНС</commonModules>
   <commonModules>CommonModule.МашиночитаемыеДоверенностиФНСКлиент</commonModules>
   <commonModules>CommonModule.МашиночитаемыеДоверенностиФНСКлиентПереопределяемый</commonModules>
@@ -1475,6 +1481,7 @@
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
+  <exchangePlans>ExchangePlan.СинхронизацияКафка</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>
@@ -1566,6 +1573,8 @@
   <eventSubscriptions>EventSubscription.КонтрольНеразделенныхНаборовЗаписейПриЗаписиБСД</eventSubscriptions>
   <eventSubscriptions>EventSubscription.КонтрольНеразделенныхОбъектовПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.КонтрольНеразделенныхОбъектовПриЗаписиБСД</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЛогистикаДокументыПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЛогистикаСправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьГруппыВладельцевНастроекПрав</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьГруппыЗначенийДоступаПередЗаписью</eventSubscriptions>
@@ -2282,6 +2291,7 @@
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
   <enums>Enum.ИсточникиПравилДляОбменаДанными</enums>
+  <enums>Enum.НазначениеУзлаОбмена</enums>
   <enums>Enum.НазначенияВариантовОтчетов</enums>
   <enums>Enum.ОперацииАдминистрированияПрофилейБезопасности</enums>
   <enums>Enum.ПериодичностиРасписанийРассылокОтчетов</enums>
