@@ -275,13 +275,17 @@
   <items xsi:type="form:FormField">
     <name>ДокументОснование</name>
     <id>16</id>
+    <title>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ДокументОснование</segments>
+      <segments>Объект.ДокументОснованиеПредставление</segments>
     </dataPath>
     <extendedTooltip>
       <name>ДокументОснованиеРасширеннаяПодсказка</name>

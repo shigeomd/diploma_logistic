@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72e6a23d-06f0-4e7d-b773-a87484d4fff3">
+  <name>Синхронизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonTemplate.librdkafka_win64</content>
+  <content>ExchangePlan.СинхронизацияКафка</content>
+  <content>CommonModule.ЛогистикаСинхронизацияПовтИсп</content>
+  <content>CommonModule.ЛогистикаСинхронизацияСервер</content>
+  <content>EventSubscription.ЛогистикаДокументыПриЗаписи</content>
+  <content>EventSubscription.ЛогистикаСправочникиПриЗаписи</content>
+  <content>DataProcessor.РегистрацияИзмененийДляОбменаДанными</content>
+</mdclass:Subsystem>

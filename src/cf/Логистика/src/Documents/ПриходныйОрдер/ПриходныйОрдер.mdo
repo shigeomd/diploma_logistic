@@ -107,6 +107,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="83cea37b-6c56-4429-8e04-983b8456bc17">
+    <name>ДокументОснованиеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="5ead403f-4758-41b0-a13a-1f3a02154af0">
     <name>ФормаДокумента</name>
     <synonym>
