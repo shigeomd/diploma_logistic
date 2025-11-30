@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1580db9-c2b7-46d3-a5d9-6773324715ad">
+  <producedTypes>
+    <selectionType typeId="38bdaf15-7dd0-47e4-adc6-3faed9bdc0a4" valueTypeId="9f49a363-264c-4a96-9737-1308996ae053"/>
+    <listType typeId="cc294601-6633-479b-aff0-16c94f91b338" valueTypeId="a800b9e7-5bd8-4c98-a6c2-9c56949f1cac"/>
+    <managerType typeId="c5d294bb-d025-4f6c-b6d3-dd1e95bcc165" valueTypeId="4b9b3d3d-ae29-4d09-8dd7-8da61c610b03"/>
+    <recordSetType typeId="1e637910-7a4d-4cd6-b39c-2e58f97d6f17" valueTypeId="fdf5653c-16ac-4ee7-8e13-e2ebedc4bf43"/>
+    <recordKeyType typeId="20d7f3b2-a755-4f4d-9886-a94b910ded7b" valueTypeId="ec538a5d-90da-40a2-be5e-a2922a0c7072"/>
+    <recordType typeId="c963f219-4702-4252-82fe-1f9e22ac2820" valueTypeId="5d3782b6-42cc-4b60-a97a-3989560c7338"/>
+    <recordManagerType typeId="e52462aa-68ae-4901-83e8-1a97e2c1e7a5" valueTypeId="4f16e2f8-5bc5-4d8c-a56c-7ffca64d1984"/>
+  </producedTypes>
+  <name>СтатусыСкладскихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы складских документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ad52ba28-7395-4e7e-8d4d-9af954535569">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСкладскихДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dd0b1d64-6094-4576-8a44-f1bfe7d2b2a9">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Перемещение</types>
+      <types>DocumentRef.Списание</types>
+      <types>DocumentRef.Оприходование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

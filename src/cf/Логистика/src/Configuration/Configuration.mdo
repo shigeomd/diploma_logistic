@@ -2340,6 +2340,7 @@
   <enums>Enum.СтатусыИсходящегоЭлектронногоПисьма</enums>
   <enums>Enum.СтатусыМЧД</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
+  <enums>Enum.СтатусыСкладскихДокументов</enums>
   <enums>Enum.СтатусыТранзакцииСРеестромМЧД</enums>
   <enums>Enum.СтатусыЭлектронныхПисем</enums>
   <enums>Enum.ТехническиеСтатусыМЧД</enums>
@@ -2654,6 +2655,7 @@
   <informationRegisters>InformationRegister.СрокиХраненияПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.СтатистикаКонфигурации</informationRegisters>
   <informationRegisters>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусыСкладскихДокументов</informationRegisters>
   <informationRegisters>InformationRegister.СубъектыДляРасчетаСроковХранения</informationRegisters>
   <informationRegisters>InformationRegister.СубъектыДляСкрытияПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
