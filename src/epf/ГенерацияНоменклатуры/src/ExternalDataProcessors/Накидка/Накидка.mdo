@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c1008d6-c4c5-4374-91a7-ca709f305c31">
+  <producedTypes>
+    <objectType typeId="d81f4eff-5fa3-491f-b464-949db280d8c2" valueTypeId="a187b686-1d41-49bd-b241-a250adf1a548"/>
+  </producedTypes>
+  <name>Накидка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Накидка</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="8dc9d295-e23b-4b9f-aa62-f9d96daf4855"/>
+  <defaultForm>ExternalDataProcessor.Накидка.Form.Форма</defaultForm>
+  <forms uuid="52682298-b8f7-4193-a009-52b4bda4cd35">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="76466fa7-6307-4735-ae3c-04fa4f72d1ba">
+    <name>ПостроительСхемФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель схем формы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbb7131f-1032-4531-82e5-d5ca52e5a2f9">
+    <name>УправлениеСвойствами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление свойствами</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66f2ef4e-6e97-448a-971d-350424abdaef">
+    <name>СлужебныеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные функции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="02510cbd-433c-481b-8148-d9bef299005f">
+    <name>ФормаГенераторXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор XML</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="401b7edf-b637-44cf-9739-a646f3f410e7">
+    <name>ГенераторКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор кода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35fb87e8-48cc-4643-b592-30e5a1bfed25">
+    <name>РаботаСИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с ИИ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dca0ebe0-38d3-4215-ba36-a8b96bf3d2ce">
+    <name>ФормаВыбораКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора картинки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e9ac38d-d617-4d6b-a595-deba7a073e1e">
+    <name>ФормаВыбораОбъектаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объекта конфигурации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="032a21f5-ccd4-44ab-8247-e2d43c278f6e">
+    <name>ФормаКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма кода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="922141fb-1123-4509-93a6-036ebf2e1bb8">
+    <name>ФормаНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4afe5794-5d54-4734-92a2-14e1d509755b">
+    <name>ФормаПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма просмотр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e95b401f-931b-4f76-aee5-c452198755fc">
+    <name>ФормаРедактированияТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования таблицы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c89682a7-9d1d-4948-95c8-e6884942b5e5">
+    <name>БиблиотекаJS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека JS</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8a751fe-c5ff-4902-a7a3-01f31e971210">
+    <name>ФормаВыбораЦвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора цвета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c11f068-7d29-4375-a7fd-b753865c28a0">
+    <name>ЗаполнениеСФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение с формы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4376d5d5-1f3e-4bee-8eba-8044192cb179">
+    <name>ПостроительТекстаМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель текста модуля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="68bd2e49-4e62-4da0-8ffb-154aa1af2af4">
+    <name>ФормаВыбораТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора типа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a44c6e42-1924-434b-9f78-91eca4584798">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="58d07e4c-82c7-4552-be66-d27c6de7bd34">
+    <name>LICENSE</name>
+    <synonym>
+      <key>ru</key>
+      <value>LICENSE</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3b11d102-c357-4e99-a9c8-b70f746e8eea">
+    <name>Промпт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промпт</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="94f0c017-42e2-4774-8797-985d3ebce3c9">
+    <name>ТипыЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы элементов</value>
+    </synonym>
+  </templates>
+  <templates uuid="aecacbe0-0974-4f05-b0e0-aed81dedc157">
+    <name>БиблиотекаJS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека JS</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b89796e8-9880-436b-aafb-ef8222341f0e">
+    <name>Свойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства</value>
+    </synonym>
+  </templates>
+  <templates uuid="162f2f3a-dbb3-4342-962f-7282c2c8fba3">
+    <name>Цвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвета</value>
+    </synonym>
+  </templates>
+  <templates uuid="7709b8b1-1c7f-4d07-963d-655a30dd14c0">
+    <name>ПромптТип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промпт тип</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="642968fc-0182-4c04-9142-0327cae28f10">
+    <name>БиблиотекаКартинок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека картинок</value>
+    </synonym>
+  </templates>
+  <templates uuid="0a53199b-3eac-4bd6-8928-7d640140537c">
+    <name>ПромптНазванияЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промпт названия элементов</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="fd5a511e-e2d4-4433-a6a2-6597f08f9a2d">
+    <name>bsl_console</name>
+    <synonym>
+      <key>ru</key>
+      <value>bsl_console</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c340dc5e-6456-42ae-9a3a-ff54216dfea5">
+    <name>ОбработчикиСобытийЭлементовФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчики событий элементов формы</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
