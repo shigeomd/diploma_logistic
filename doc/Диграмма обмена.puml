@@ -1,0 +1,36 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' LAYOUT_WITH_LEGEND()
+
+title "Диаграмма обмена систем"
+
+' Системы
+System_Boundary(Central, "Центральная база") {
+    Container(НСИЦентральная, "НСИ", )     
+    Container(ОрдераЦентральная, "Ордера", )    
+}
+
+System_Boundary(Filial, "Филиал") {
+    Container(НСИФилиал, "НСИ", "")
+    Container(ОрдераФИлиал, "Ордера", "")
+}
+
+System_Boundary(Kafka, "Kafka") {
+    Container(НСИКафка, "НСИ", "")
+    Container(ОрдераКафка, "Ордера", "")
+}
+
+' Связи
+Rel(НСИЦентральная, НСИКафка, "НСИ", https)
+
+Rel(ОрдераЦентральная, ОрдераКафка, "Документы", https)
+Rel(ОрдераКафка, ОрдераЦентральная, "Документы", https)
+
+
+Rel(НСИКафка, НСИФилиал, "НСИ", https)
+
+Rel(ОрдераКафка, ОрдераФИлиал, "Документы", https)
+Rel(ОрдераФИлиал, ОрдераКафка, "Документы", https)
+
+@enduml
