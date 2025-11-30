@@ -226,10 +226,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Report.ОценкаПроизводительности.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Report.ПраваРолей.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
