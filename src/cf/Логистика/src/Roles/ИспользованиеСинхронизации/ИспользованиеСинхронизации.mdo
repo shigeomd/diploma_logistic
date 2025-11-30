@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4939cc8e-37bc-4519-a302-2e28c0157bce">
+  <name>ИспользованиеСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование синхронизации</value>
+  </synonym>
+</mdclass:Role>
