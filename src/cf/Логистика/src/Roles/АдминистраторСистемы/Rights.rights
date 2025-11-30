@@ -623,7 +623,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
+		<name>Configuration.Логистика</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>
@@ -657,6 +657,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>MobileClient</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ThickClient</name>
 			<value>true</value>
 		</right>
@@ -670,6 +674,10 @@
 		</right>
 		<right>
 			<name>TechnicalSpecialistMode</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>CollaborationSystemInfoBaseRegistration</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -697,11 +705,23 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>ExclusiveModeTerminationAtSessionStart</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>ConfigurationExtensionsAdministration</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveOpenExtDataProcessors</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveOpenExtReports</name>
 			<value>true</value>
 		</right>
 		<right>
