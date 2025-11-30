@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Перемещение.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Перемещение.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ТоварыКПоступлениюНаСклад</registerRecords>
   <registerRecords>AccumulationRegister.ТоварыКРасходуСоСклада</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -94,6 +95,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c905bd1b-5454-48ed-80c8-dcd40057d859">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
