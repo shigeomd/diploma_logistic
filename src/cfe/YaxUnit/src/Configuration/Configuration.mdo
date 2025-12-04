@@ -22,7 +22,6 @@
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <version>25.04</version>
-  <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -167,6 +166,9 @@
   <commonModules>CommonModule.ЮТЧитательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЧитательСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЧитательСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.РС_СтатусыСкладскихДокументов_ММ</commonModules>
+  <commonModules>CommonModule.Док_Списание_ММ</commonModules>
+  <documents>Document.Списание</documents>
   <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPОтвет</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
