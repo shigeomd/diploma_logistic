@@ -3,7 +3,7 @@
   <name>Логистика</name>
   <synonym>
     <key>ru</key>
-    <value>Логистика</value>
+    <value>Управление распределенным складом</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1223e46c-30ad-4076-99a1-5046abca7b70"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="86532d1c-a5c9-4984-83c5-4df1035a587b"/>
@@ -38,7 +38,7 @@
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Дипломная работа, логистика</value>
+    <value>Управление распределенным складом</value>
   </detailedInformation>
   <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
